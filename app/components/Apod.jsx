@@ -5,11 +5,12 @@ module.exports = React.createClass({
 		return (
 			<div className="card">
 				<div className="card-image">
-					<img src={this.props.apod.url}/>
-					<span className="card-title">{this.props.apod.title}</span>
+					<img src={ this.props.apod.url }/>
+					<span className="card-title">{ this.props.apod.title }</span>
 				</div>
 				<div className="card-content">
-					<p>{this.props.apod.text}</p>
+					<p className="">{ this.props.apod.text }</p>
+					{ this.props.apod.copyright ? <div><hr/><p className="copyright-text">Copyright: {this.props.apod.copyright}</p></div> : null }
 				</div>
 			</div>
 		);

@@ -18,8 +18,7 @@ var data = [{
 	hdurl: "http://apod.nasa.gov/apod/image/1610/M45_vonEiff_1600.jpg",
 	url: "http://apod.nasa.gov/apod/image/1610/M45_vonEiff_960.jpg",
 	media_type: "image",
-	service_version: "v1",
-	copyright: "Hermann von Eiff"
+	service_version: "v1"
 }];
 
 function render(){

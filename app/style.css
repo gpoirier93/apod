@@ -1,0 +1,12 @@
+.body {
+	color:#212121 !important;
+}
+
+.limited-height-paragraph {
+	max-height: 5rem;
+}
+
+.copyright-text {
+	color:#757575 !important;
+	font-style: italic !important;
+}
