@@ -15,7 +15,12 @@ gulp.task("bundle", function () {
 });
 
 gulp.task("copy", ["bundle"], function () {
-    return gulp.src(["app/index.html","app/lib/materialize/dist/css/materialize.css","app/style.css"])
+    return gulp.src(["app/index.html"
+        ,"app/lib/materialize/dist/css/materialize.css"
+        ,"app/lib/jquery/dist/jquery.min.js"
+        ,"app/lib/materialize/dist/js/materialize.min.js"
+        ,"app/lib/moment/min/moment.min.js"
+        ,"app/style.css"])
         .pipe(gulp.dest("app/dist"));
 });
 

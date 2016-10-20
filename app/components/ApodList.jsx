@@ -1,16 +1,24 @@
 var React = require("react");
-var Apod = require("./Apod.jsx");
+var ApodCard = require("./ApodCard.jsx");
 
 module.exports = React.createClass({
+	enableMaterialBoxedContent: function() {
+		$(document).ready(function(){
+			$('.materialboxed').materialbox();
+		});
+	},
+	componentDidUpdate: function(){
+		this.enableMaterialBoxedContent();
+	},
 	render: function() {
 		var apodNodes = this.props.data.map(function(apod, index) {
 			return (
-				<Apod apod={apod} key={index}></Apod>
+				<ApodCard apod={apod} key={index}></ApodCard>
 			);
 		});
 		return(
 			<div className="row commentList">
-				<div className="col s8 offset-s2">
+				<div className="col s10 offset-s1">
 					{apodNodes}
 				</div>
 			</div>
