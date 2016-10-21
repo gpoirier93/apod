@@ -19,7 +19,7 @@ module.exports = React.createClass({
 			      <span className="card-title">{ this.props.apod.title }<a className="btn-floating btn-small waves-effect waves-light grey darken-4 right"><i className="material-icons right">expand_more</i></a></span>
 			      <p className="card-date-text">{ this.getApodDate() }</p>
 			      <p className="card-description-text">{ this.props.apod.text }</p>
-			      { this.props.apod.copyright ? <div><hr/><p className="copyright-text">Copyright: { this.props.apod.copyright }</p></div> : null }
+			      { this.props.apod.copyright ? <div><hr/><p className="ds-copyright-text">Copyright: { this.props.apod.copyright }</p></div> : null }
 			    </div>
 			    <div className="card-action">
 			    	<a href="#">Full post</a>
