@@ -32,8 +32,13 @@
 	color: #9e9e9e !important;
 }
 
-.apodBox {
+.ds-apod-box {
 	margin-top:2rem !important;
+}
+
+.ds-apod-cover-img:hover {
+	transition:opacity 0.2s ease !important;
+	opacity: 0.8 !important;
 }
 
 /**************/
@@ -43,4 +48,8 @@
 	color:#757575 !important;
 	font-style: italic !important;
 	font-size: 80% !important;
+}
+
+.ds-apod-cover-date {
+	font-size: 80% !important
 }

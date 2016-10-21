@@ -1,5 +1,6 @@
 var React = require("react");
 var ApodList = require("./ApodList.jsx");
+var ApodGallery = require("./ApodGallery.jsx");
 
 module.exports = React.createClass({
 	loadApodsFromServer: function() {
@@ -23,7 +24,7 @@ module.exports = React.createClass({
 	},
 	render: function() {
 	    return (
-	    	<div className="apodBox row">
+	    	<div className="ds-apod-box row">
 	    		<div className="col s12">
 		    		<div className="row">
 		    			<div className="col s8 offset-s2">
@@ -33,8 +34,8 @@ module.exports = React.createClass({
 			    				<li className="tab col s2"><a href="#list"><i className="material-icons">view_list</i></a></li>
 			    			</ul>
 			    		</div>
-			    		<div id="feed" className="col s12"><ApodList data={this.state.data} type="feed"/></div>
-		      			<div id="gallery" className="col s12">gallery</div>
+			    		<div id="feed" className="col s12"><ApodList data={this.state.data}/></div>
+		      			<div id="gallery" className="col s12"><ApodGallery data={this.state.data}/></div>
 		      			<div id="list" className="col s12">list</div>
 			    	</div>
 	      		</div>
