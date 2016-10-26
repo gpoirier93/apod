@@ -5,14 +5,14 @@ module.exports = React.createClass({
 	render: function() {
 		var apodNodes = this.props.data.map(function(apod, index) {
 			return (
-				<div className="col s12 m6 l4" key={index}>
-					<ApodCover apod={apod}/>
-				</div>
+				<ApodCover apod={apod} key={index}/>
 			);
 		});
 		return(
-			<div className="row apodGallery">
-				{apodNodes}
+			<div className="row ds-apod-gallery">
+				<div className="col s12 ds-flex-parent-wrap">
+					{apodNodes}
+				</div>
 			</div>
 		);
 	}

@@ -12,7 +12,10 @@ module.exports = React.createClass({
 					<img className="materialboxed" src={ this.props.apod.url }/>
 				</div>
 				<div className="card-content">
-					<span className="card-title activator">{ this.props.apod.title }<a className="btn-floating btn-small waves-effect waves-light grey darken-4 right"><i className="material-icons right">expand_less</i></a></span>
+					<div className="ds-flex-parent">
+						<span className="card-title activator truncate ds-apod-card-title-text">{ this.props.apod.title }</span>
+						<a className="btn-floating btn-small waves-effect waves-light grey darken-4 right activator ds-apod-card-title-button"><i className="material-icons right">expand_less</i></a>
+					</div>
 					<p className="card-date-text">{ this.getApodDate() }</p>
 				</div>
 				<div className="card-reveal">

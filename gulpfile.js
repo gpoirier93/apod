@@ -15,6 +15,11 @@ gulp.task("bundle", function () {
 });
 
 gulp.task("copy", ["bundle"], function () {
+    gulp.src(["app/lib/materialize/dist/fonts/roboto/*.ttf"
+        ,"app/lib/materialize/dist/fonts/roboto/*.oet"
+        ,"app/lib/materialize/dist/fonts/roboto/*.woff"
+        ,"app/lib/materialize/dist/fonts/roboto/*.woff2"])
+        .pipe(gulp.dest("app/dist/fonts/roboto"));
     return gulp.src(["app/index.html"
         ,"app/lib/materialize/dist/css/materialize.css"
         ,"app/lib/jquery/dist/jquery.min.js"
@@ -23,6 +28,14 @@ gulp.task("copy", ["bundle"], function () {
         ,"app/style.css"])
         .pipe(gulp.dest("app/dist"));
 });
+
+// gulp.task("copy", ["bundle"], function() {
+//     return gulp.src(["app/lib/materialize/dist/fonts/roboto/*.ttf"
+//         ,"app/lib/materialize/dist/fonts/roboto/*.oet"
+//         ,"app/lib/materialize/dist/fonts/roboto/*.woff"
+//         ,"app/lib/materialize/dist/fonts/roboto/*.woff2"])
+//         .pipe(gulp.dest("app/dist/fonts/roboto"));
+// });
 
 gulp.task("default",["copy"],function(){
    console.log("Gulp completed..."); 

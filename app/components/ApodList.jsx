@@ -17,7 +17,7 @@ module.exports = React.createClass({
 			);
 		});
 		return(
-			<div className="row commentList">
+			<div className="row ds-apod-list">
 				<div className="col s10 offset-s1">
 					{apodNodes}
 				</div>
