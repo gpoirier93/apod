@@ -3,6 +3,6 @@ var ReactDOM = require("react-dom");
 var ApodBox = require("./components/ApodBox.jsx");
 
 function render(){
-    ReactDOM.render(<ApodBox url="/apod"/>, document.getElementById("container"));    
+    ReactDOM.render(<ApodBox url="/apods"/>, document.getElementById("container"));    
 }
 render();

@@ -1,0 +1,251 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"fle",
+				"flex-wrap"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"Apod",
+				"ApodGallery"
+			],
+			[
+				"apod",
+				"apodComponent"
+			],
+			[
+				"get",
+				"getApodDate"
+			],
+			[
+				"s",
+				"script"
+			],
+			[
+				"card",
+				"card-title"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"handle",
+				"handleCommentSubmit"
+			],
+			[
+				"on",
+				"onSubmit"
+			],
+			[
+				"comment",
+				"comment"
+			],
+			[
+				"Comm",
+				"Comment"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"last_filter": "package control: in",
+		"selected_items":
+		[
+			[
+				"package control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: b",
+				"Package Control: Enable Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Master/Source/apod/app/dist/style.css",
+		"/Users/Master/Source/apod/gulpfile.js",
+		"/Users/Master/Source/apod/app/dist/materialize.min.js",
+		"/Users/Master/Source/apod/bower.json",
+		"/Users/Master/Source/apod/app/main.jsx",
+		"/Users/Master/Source/apod/.gitignore",
+		"/Users/Master/Source/apod/app/style.css",
+		"/Users/Master/Source/apod/app/index.html",
+		"/Users/Master/Source/apod/server/server.js",
+		"/Users/Master/Source/apod/app/lib/materialize/dist/css/materialize.css",
+		"/Users/Master/Source/apod/app/dist/index.html",
+		"/Users/Master/Source/NASA/nasa/app.js",
+		"/Users/Master/Source/apod/.bowerrc",
+		"/Users/Master/Source/apod/app/dist/materialize.css",
+		"/Users/Master/Source/apod/package.json",
+		"/Users/Master/Source/apod/app.js",
+		"/Users/Master/Source/NASA/proofOfConcept",
+		"/Users/Master/Source/NASA/config.js",
+		"/Users/Master/Desktop/react-tutorial-master/public/scripts/tutorial1.js",
+		"/Users/Master/Desktop/react-tutorial-master/public/index.html",
+		"/Users/Master/Desktop/react-tutorial-master/comments.json"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"roboto",
+			"nav"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "package.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 274.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
