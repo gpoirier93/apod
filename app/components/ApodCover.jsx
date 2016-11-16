@@ -2,6 +2,9 @@ var React = require("react");
 var moment = require("moment");
 
 module.exports = React.createClass({
+	componentDidMount: function() {
+		$('.ds-apod-cover').height($('.ds-apod-cover').width());
+	},
 	render: function() {
 		return (
 			<div className="ds-apod-cover">

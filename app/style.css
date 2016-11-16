@@ -80,10 +80,13 @@
 }
 
 .ds-apod-cover {
-	display:inline-block !important;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 	position: relative !important;
 	max-width:33% !important;
-	height:auto !important;
+	padding-bottom:80%;
 	margin-top: 0.5rem !important;
 }
 
@@ -95,6 +98,18 @@
 .ds-apod-cover:hover .ds-apod-cover-img {
 	transition:opacity 0.4s ease !important;
 	opacity: 0.2 !important;
+}
+
+.ds-apod-cover-bg{
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+}
+
+.ds-apod-cover a {
+	flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
 }
 
 .ds-apod-collection-item {

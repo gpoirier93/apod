@@ -4,6 +4,7 @@
     "password": "nwSLVIs7srOhnMAcdB9l_LJBmB",
     "database": "d6j67pgcgvihhf",
     "host": "ec2-54-235-254-56.compute-1.amazonaws.com",
+    "logging": false,
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": true
@@ -14,6 +15,7 @@
     "password": "nwSLVIs7srOhnMAcdB9l_LJBmB",
     "database": "d6j67pgcgvihhf",
     "host": "ec2-54-235-254-56.compute-1.amazonaws.com",
+    "logging": false,
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": true
@@ -24,6 +26,7 @@
     "password": "nwSLVIs7srOhnMAcdB9l_LJBmB",
     "database": "d6j67pgcgvihhf",
     "host": "ec2-54-235-254-56.compute-1.amazonaws.com",
+    "logging": false,
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": true
