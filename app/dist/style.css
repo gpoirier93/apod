@@ -80,14 +80,18 @@
 }
 
 .ds-apod-cover {
-	display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-	position: relative !important;
-	max-width:33% !important;
-	padding-bottom:80%;
-	margin-top: 0.5rem !important;
+	float:left;
+    position: relative;
+    width: 33%;
+    margin-bottom:0.4%;
+    padding-bottom : 30%;
+    overflow:hidden;
+}
+
+.ds-apod-cover-content {
+    position:absolute;
+    height:100%;
+    width:100%;
 }
 
 .ds-apod-cover:hover .ds-apod-cover-date {
@@ -100,10 +104,10 @@
 	opacity: 0.2 !important;
 }
 
-.ds-apod-cover a {
-	flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
+.ds-apod-cover-img {
+	object-fit: cover !important;
+	width:100%;
+	height:100% !important;
 }
 
 .ds-apod-collection-item {

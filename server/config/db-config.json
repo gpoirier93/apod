@@ -5,6 +5,7 @@
     "database": "d6j67pgcgvihhf",
     "host": "ec2-54-235-254-56.compute-1.amazonaws.com",
     "dialect": "postgres",
+    "logging":false,
     "dialectOptions": {
       "ssl": true
     }
@@ -15,6 +16,7 @@
     "database": "d6j67pgcgvihhf",
     "host": "ec2-54-235-254-56.compute-1.amazonaws.com",
     "dialect": "postgres",
+    "logging":false,
     "dialectOptions": {
       "ssl": true
     }
@@ -25,6 +27,7 @@
     "database": "d6j67pgcgvihhf",
     "host": "ec2-54-235-254-56.compute-1.amazonaws.com",
     "dialect": "postgres",
+    "logging":false,
     "dialectOptions": {
       "ssl": true
     }

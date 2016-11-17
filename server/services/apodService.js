@@ -22,7 +22,7 @@ module.exports = {
           date: new Date(apodJSON.date),
           title: apodJSON.title,
           text: apodJSON.explanation,
-          mediaType: apodJSON.mediaType == 'image' ? 'image' : 'video',
+          mediaType: apodJSON.media_type === 'image' ? 'image' : 'video',
           url: apodJSON.url,
           hdurl: apodJSON.hdurl,
           copyright: apodJSON.copyright
